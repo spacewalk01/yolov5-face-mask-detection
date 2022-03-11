@@ -1,5 +1,5 @@
 # Face Mask Detection
-Wearing face masks in public places is essential to prevent the spread of COVID-19 infection. This repo includes a demo for building a face mask detector using YOLOv5 model. 
+Wearing face masks in public places can prevent the spread of COVID-19 as well as other infections. This repo includes a demo for building a face mask detector using YOLOv5 model. 
 <p align="center"> <img src="results/anim.gif" /></p>
 
 ### Dataset
@@ -49,7 +49,7 @@ The following charts were obtained after training YOLOv5s with input size 640x64
   <img src="results/loss_curve.png" />
 </p>
 
-Precision-Recall (PR) measures the accuracy of bounding box overlap between bboxes and ground truth bboxes. Precision is a ratio of true positive instances to all positive instances of objects in the detector, based on the ground truth.
+Precision-Recall (PR) measures the accuracy of bounding box overlap between predicted bboxes and ground truth bboxes. 
 | Precision Curve | Recall Curve | PR Curve |
 | :-: | :-: | :-: |
 | <p align="center"> <img src="results/P_curve.png"/></p> | <p align="center"> <img src="results/R_curve.png"/></p> | <p align="center"> <img src="results/PR_curve.png"/></p> |
