@@ -54,13 +54,13 @@ Precision-Recall (PR) measures the accuracy of bounding box overlap between bbox
 | :-: | :-: | :-: |
 | <p align="center"> <img src="results/P_curve.png"/></p> | <p align="center"> <img src="results/R_curve.png"/></p> | <p align="center"> <img src="results/PR_curve.png"/></p> |
 
-The following metrics were measured on the valid dataset containing 171 images. High precision and recall scores were obtained on `with mask` and `without mask` classes while the performance on `mask weared incorrect` class was poor due to the lack of the corresponding samples.
+The following metrics were measured on the valid dataset containing 171 images. High precision and recall scores were obtained on `with mask` and `without mask` classes. However, the performance on `mask weared incorrectly` class was poor due to the imbalanced data.
 
 | Class | #Labels | Precision | Recall | mAP<sup>val<br>0.5 | mAP<sup>val<br>0.5:0.95 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | `with mask` | 630 | 0.94 | 0.9 | 0.95 | 0.64 |
 | `without mask` | 104 | 0.86 | 0.82 |  0.9 |  0.6 |
-| `mask weared incorrect` | 20 | 0.72 | 0.3 | 0.43 | 0.24 |
+| `mask weared incorrectly` | 20 | 0.72 | 0.3 | 0.43 | 0.24 |
 | `total` | 754 | 0.84 | 0.67 | 0.76 | 0.49 |
 
 #### Ground Truths vs Predictions
