@@ -35,11 +35,11 @@ python train.py --img 640 --batch 16 --epochs 100 --data ../mask_config.yaml --w
 #### Inference
 * If you train your own model, use the following command for inference:
 ```
-python detect.py --source ../input.mp4 --weights runs/train/exp/weights/best.pt --conf 0.2
+python detect.py --source ../datasets/input.mp4 --weights runs/train/exp/weights/best.pt --conf 0.2
 ```
 * Or you can use the pretrained model `trained_model.pt` for inference as follows:
 ```
-python detect.py --source ../input.mp4 --weights ../models/mask_yolov5s.pt --conf 0.2
+python detect.py --source ../datasets/input.mp4 --weights ../models/mask_yolov5s.pt --conf 0.2
 ```
 
 ### Results
