@@ -1,5 +1,5 @@
 # Face Mask Detection
-Aa face masks become mandatory due to the spread of COVID-19, it is desirable to have machines automatically detect the violation of face mask wearing. This repo includes scripts for training YOLOv5 model to detect people wearing masks or not wearing. Furthermore, we let it learn to predict whether people are wearing masks correctly.
+Wearing face masks in public places is essential to prevent the spread of COVID-19 infection. This repo includes scripts for training YOLOv5 model to detect people wearing masks or not wearing. Furthermore, we let it learn to predict whether people are wearing masks correctly.
 <p align="center"> <img src="results/anim.gif" /></p>
 
 ### Dataset
