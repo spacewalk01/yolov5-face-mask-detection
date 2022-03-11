@@ -1,0 +1,7 @@
+pip install glob
+pip install tqdm
+pip install -U scikit-learn
+pip install pathlib
+pip install numpy
+pip install zipfile36
+pip install elementpath
