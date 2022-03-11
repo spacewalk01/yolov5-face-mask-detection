@@ -1,5 +1,5 @@
 # Face Mask Detection
-Wearing face masks in public places is essential to prevent the spread of COVID-19 infection. This repo includes scripts for training YOLOv5 model to detect people wearing masks or not wearing. Furthermore, we let it learn to predict whether people are wearing masks correctly.
+Wearing face masks in public places is essential to prevent the spread of COVID-19 infection. This repo includes a demo for building a face mask detector using YOLOv5 model. 
 <p align="center"> <img src="results/anim.gif" /></p>
 
 ### Dataset
