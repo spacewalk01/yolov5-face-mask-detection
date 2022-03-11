@@ -39,7 +39,7 @@ python detect.py --source ../input.mp4 --weights runs/train/exp/weights/best.pt 
 ```
 * Or you can use the pretrained model `trained_model.pt` for inference as follows:
 ```
-python detect.py --source ../input.mp4 --weights ../trained_yolov5s.pt --conf 0.2
+python detect.py --source ../input.mp4 --weights ../models/mask_yolov5s.pt --conf 0.2
 ```
 
 ### Results
