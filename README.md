@@ -1,6 +1,6 @@
 # Face Mask Detection
 This repo includes a demo for building a face mask detector using YOLOv5 model. 
-<p align="center"> <img src="results/anim1.gif" /></p>
+<p align="center"> <img src="results/anim2.gif" /></p>
 
 ### Dataset
 The model was trained on [Face-Mask](https://www.kaggle.com/andrewmvd/face-mask-detection) dataset which contains 853 images belonging to 3 classes, as well as their bounding boxes in the PASCAL VOC format. The classes are defined as follows:
