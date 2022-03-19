@@ -1,5 +1,5 @@
 # Face Mask Detection
-Wearing face masks in public places can prevent the spread of COVID-19 as well as other infections. This repo includes a demo for building a face mask detector using YOLOv5 model. 
+This repo includes a demo for building a face mask detector using YOLOv5 model. 
 <p align="center"> <img src="results/anim.gif" /></p>
 
 ### Dataset
