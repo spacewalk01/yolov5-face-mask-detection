@@ -1,5 +1,5 @@
 # Face Mask Detection
-Face mask detection is an object detection task that detects whether people are wearing masks or not in real-time videos. This repo includes a demo for building a face mask detector using YOLOv5 model. 
+Face mask detection is an object detection task that detects whether people are wearing masks or not in videos/images. This repo includes a demo for building a face mask detector using YOLOv5 model. 
 <p align="center"> <img src="results/anim2.gif" /></p>
 
 ### Dataset
